@@ -1,0 +1,34 @@
+*{ margin: 0; padding: 0; }
+
+body{ 
+    box-sizing: border-box; 
+    background-color: bisque; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: cadetblue;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+}
+
+main{
+    width: 80%;
+    height: auto;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+p{
+    padding: 5px 8px 5px 8px; 
+    border: 1px solid cadetblue;
+}

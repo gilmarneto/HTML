@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ box-sizing: border-box; border: 3px solid red;}
+
+main{
+    background-color: orange;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+
+    position: relative;
+}
+
+#d1{
+    background-color: chartreuse;
+    width: 175px;
+    height: 175px;
+
+    position: absolute;
+    top: 0px;
+}
+
+#d2{
+    background-color: yellow;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 175px;
+}
