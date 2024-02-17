@@ -1,4 +1,10 @@
-*{ margin: 0; padding: 0; font-family: verdana; font-size: .9rem; }
+*{ 
+    margin: 0; 
+    padding: 0; 
+    font-family: verdana; 
+    font-size: .9rem; 
+    outline: none;
+}
 
 body{ 
     min-height: 100dvh;
@@ -17,6 +23,20 @@ main{
 form{
     max-width: 100%;
     height: auto;
+}
+
+legend{ 
+    margin-left: 6px; 
+    padding: 0 2px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+}
+label{ font-weight: bold; }
+
+.field_txt{     
+    height: 20px; 
+    margin-top: 3px; 
+    padding: 0 0 3px 3px; 
 }
 
 .field{ margin: 10px; }
@@ -40,7 +60,10 @@ form{
     margin: 8px;
     display: flex;
     flex-direction: column;
+    gap: .8rem;
 }
+
+.radio, .chb{ display: flex; gap: .7rem; }
 
 #btn_submit{ width: 50%; display: flex; justify-content: center; }
 #btn_reset{ width: 50%; display: flex; justify-content: center; }

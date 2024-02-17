@@ -8,37 +8,37 @@
 </head>
 <body>
     <main>
-        <form>
+        <form action="">
             <fieldset class="field">
                 <legend>Dados Pessoais</legend>
                 <div class="field-row">
                     <div id="row01-col01">
                         <label for="txt-nome">Nome:</label>
-                        <input type="text" name="" id="txt-nome">
+                        <input type="text" name="txt-nome" id="txt-nome" class="field_txt" required>
                     </div>
                     <div id="row01-col02">
                         <label for="txt-data">Data Nasc.:</label>
-                        <input type="date" name="" id="txt-data">
+                        <input type="date" name="txt-data" id="txt-data" class="field_txt" required>
                     </div>
                 </div>
                 <div class="field-row">
                     <div id="row02-col01">
                         <label for="txt-nome-mae">Nome da Mãe:</label>
-                        <input type="text" name="" id="txt-nome-mae">
+                        <input type="text" name="txt-nome-mae" id="txt-nome-mae" class="field_txt" required>
                     </div>
                     <div id="row02-col02">
                         <label for="txt-nome-pai">Nome do Pai:</label>
-                        <input type="text" name="" id="txt-nome-pai">
+                        <input type="text" name="txt-nome-pai" id="txt-nome-pai" class="field_txt">
                     </div>
                 </div>
                 <div class="field-row">
                     <div id="row03-col01">
                         <label for="txt-celular">Celular:</label>
-                        <input type="tel" name="" id="txt-celular">
+                        <input type="tel" name="txt-celular" id="txt-celular" class="field_txt" required>
                     </div>
                     <div id="row03-col02">
-                        <label for="txt-email"">E-Mail:</label>
-                        <input type="email" name="" id="txt-email">
+                        <label for="txt-email">E-Mail:</label>
+                        <input type="email" name="txt-email" id="txt-email" class="field_txt">
                     </div>
                 </div>
             </fieldset>
@@ -58,16 +58,16 @@
                             </select>
                         </div>
                         <div class="col">
-                            <label>Turma:</label>
-                            <label for="r_manha"><input type="radio" name="rad_turma" id="r_manha" value="manha">Manhã</label>
-                            <label for="r_tarde"><input type="radio" name="rad_turma" id="r_tarde" value="tarde">Tarde</label>
-                            <label for="r_noite"><input type="radio" name="rad_turma" id="r_noite" value="noite">Noite</label>
+                            <label class="titulo_coluna">Turma:</label>
+                            <label for="r_manha" class="radio"><input type="radio" name="rad_turma" id="r_manha" value="manha">Manhã</label>
+                            <label for="r_tarde" class="radio"><input type="radio" name="rad_turma" id="r_tarde" value="tarde">Tarde</label>
+                            <label for="r_noite" class="radio"><input type="radio" name="rad_turma" id="r_noite" value="noite">Noite</label>
                         </div>
                         <div class="col">
                             <label>Extracurriculares:</label>
-                            <label for="chb_ingles"><input type="checkbox" id="chb_ingles" value="ingles">Inglês</label>
-                            <label for="chb_matematica"><input type="checkbox" id="chb_matematica" value="ingles">Matemática</label>
-                            <label for="chb_uxui"><input type="checkbox" id="chb_uxui" value="ui-ux">UI/UX</label>
+                            <label for="chb_ingles" class="chb"><input type="checkbox" id="chb_ingles" value="ingles">Inglês</label>
+                            <label for="chb_matematica" class="chb"><input type="checkbox" id="chb_matematica" value="ingles">Matemática</label>
+                            <label for="chb_uxui" class="chb"><input type="checkbox" id="chb_uxui" value="ui-ux">UI/UX</label>
                         </div>
                     </div>
                 </div>
