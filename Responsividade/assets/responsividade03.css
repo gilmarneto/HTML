@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana;
+    color: black;
+}
+
+body{
+    background-color: #F5FFFA;
+    min-height: 100dvh;
+}
+/* CABEÇALHO */
+header{
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    border: 1px solid black;
+}
+h1{ max-width: 100%; }
+/* MENU */
+nav{
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border: 1px solid black; 
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+li{
+    background-color: #DCDCDC;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+/* CONTEÚDP PRINCIPAL */
+main{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid black;
+}
+/* ARTIGOS - BOX */
+.box{
+    max-width: 100%;
+    height: 260px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px dotted red;
+}
+
+h2{ font-weight: 700; }
+
+p{ margin-top: 10px; }
+/* RODAPÉ */
+footer{
+    max-width: 100%;
+    height: 70px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+/* RESPONSIVIDADE */
+@media(min-width: 576px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 921px) {
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 1025px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

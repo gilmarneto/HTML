@@ -1,0 +1,35 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+main{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.box{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+@media(min-width: 760px) {
+    main{ 
+        padding: 10px; 
+        display: flex;
+    }
+    .box{ 
+        max-width: 50%;
+        padding: 10px; 
+    }
+}
+
+@media(min-width: 1024px) {
+    main{ 
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 10px; 
+    }
+    .box{ 
+        padding: 10px; 
+    }
+}

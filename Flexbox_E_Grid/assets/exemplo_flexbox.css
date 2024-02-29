@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Segoe UI;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+header{
+    width: 80%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 50%;
+    height: auto;
+    margin-left: 15px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+a{ color: crimson; }
+
+.links{
+    margin-left: 15px;
+}
+
+p{
+    width: 50%;
+    margin-right: 15px;
+    padding: .6rem 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-login{
+    background-color: limegreen;
+    width: 120px;
+    height: 28px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
